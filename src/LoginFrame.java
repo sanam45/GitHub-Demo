@@ -15,7 +15,7 @@ public class LoginFrame extends JFrame {
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(3, 2));
-
+panel.setbackground(color.Light_GREY);
         JLabel emailLabel = new JLabel("Email:");
         panel.add(emailLabel);
 
